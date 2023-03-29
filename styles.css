@@ -1,0 +1,53 @@
+*{
+    background-color: #303030;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family:
+}
+
+
+.nav-bar {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+}
+
+.nav-links {
+    position: relative;
+    padding: 10px;
+    width: 45%;
+}
+
+.nav-links li {
+    display: inline;
+    vertical-align: top;
+}
+
+.nav-links li a {
+    padding: 10px 30px;
+}
+
+.personal-links {
+    text-align: end;
+    position: relative;
+    padding: 10px;
+    width: 45%;
+}
+
+.personal-links li {
+    display: inline;
+    vertical-align: top;
+}
+
+.personal-links li a {
+    padding: 10px 30px;
+}
+
+.main h2{
+    font-size: 30px;
+}
