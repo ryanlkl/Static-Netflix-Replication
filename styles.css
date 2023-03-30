@@ -1,11 +1,9 @@
 *{
-    background-color: #303030;
+    background-color: #141414;
     color: white;
     list-style: none;
     text-decoration: none;
-    font-family:
 }
-
 
 .nav-bar {
     font-size: 20px;
@@ -29,7 +27,7 @@
 }
 
 .nav-links li a {
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
 
 .personal-links {
@@ -45,9 +43,39 @@
 }
 
 .personal-links li a {
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
 
-.main h2{
-    font-size: 30px;
+.main {
+    bottom: 0;
+    left: 0;
 }
+
+.main h1{
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.main h2 {
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 0px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.thumbnails {
+    margin-left: 20px;
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    height: 10px;              /* height of horizontal scrollbar ← You're missing this */
+    width: 10px;               /* width of vertical scrollbar */
+    border: 1px solid #d5d5d5;
+  }
